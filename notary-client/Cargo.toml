@@ -1,0 +1,20 @@
+[package]
+name = "notary-client"
+edition = "2021"
+
+[lints]
+workspace = true
+
+[dependencies]
+notary-common = { workspace = true }
+derive_builder = { workspace = true }
+futures = { workspace = true }
+http-body-util = { workspace = true }
+hyper = { workspace = true, features = ["client", "http1"] }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+smol = { workspace = true }
+smol-hyper = { workspace = true }
+futures-rustls = { workspace = true }
+tracing = { workspace = true }
+webpki-roots = { workspace = true }
