@@ -22,7 +22,7 @@ thiserror = { version = "1.0" }
 # tokio-rustls = { version = "0.24" }
 tracing = { version = "0.1" }
 serde = { version = "1.0.219", features = ["derive"] }
-webpki-roots = { version = "1.0.1" }
+webpki-roots = { version = "0.26.11" }
 smol = { version = "2.0.2" }
 smol-hyper = "0.1.1"
 futures-rustls = { version = "0.25" }
